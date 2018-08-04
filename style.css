@@ -1,0 +1,114 @@
+body{
+  font-family: "Roboto",Arial;
+  padding:0;
+  margin: 0 auto; 
+  width:940px;
+}
+.clear{
+  float:none;
+  clear:both;
+}
+.mainContainer{
+  width:940px;
+  margin: 20px 0;
+
+}
+.search,
+.logo{
+  width:50%;
+  float:left;
+}
+form button{
+  background:none;
+  border:0;
+  position:absolute;
+  top:12px;
+  right:7px;
+}
+form input[type="text"]{
+  float: right;
+  padding:13px 35px 15px 11px;
+  border: 1px solid #e5e5e5;
+}
+.search{
+  position:relative;
+}    
+header div{
+  border-top:1px solid #e5e5e5;
+  border-bottom:1px solid #e5e5e5;
+}
+header h1{
+  font-size:33px;
+  color:#333333;
+  font-weight:400;
+  
+}
+header p{
+  font-size:15px;
+  color:#666;
+  line-height:24px;
+}
+header span,
+header a{
+  color:#af0061;
+  text-decoration:none;
+}  
+nav .mainmenu{
+  float:left;
+  list-style:none;
+  display:inline-block;
+  margin-left: -40px;
+}
+ul.mainmenu > li{
+  float:left;
+  margin:0 22px 0 0; 
+}
+ul.mainmenu li a{
+  text-decoration:none;
+  color:#af0061;
+  display:inline-block;
+  padding:16px 14px;
+  border:1px solid #e5e5e5;
+}
+ul.mainmenu li:hover a{
+  background-color:#ccc;
+}
+ul.mainmenu > li:hover ul{
+  display:block;
+}
+#first a{
+  padding: 16px 32px 16px 14px;
+  background-image: url("https://site-example.pl/projekt1/triangle.png");
+  background-position: 90% 21px;
+  background-repeat:no-repeat;
+}
+ul.mainmenu ul{
+  display:none;
+  list-style:none;
+  padding:20px 0 0 0;
+  margin:0;
+}
+ul.mainmenu li ul>li{
+  margin:5px 0;
+}
+footer img{
+  float:left;
+  margin-right:16px;
+}
+.footer-right,
+.footer-left{
+  width:50%;
+  float:left;
+}
+footer p{
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:67px;
+  font-size:14px;
+  font-weight:500;
+}
+footer{
+  border-top:1px solid #e5e5e5;
+  padding:18px 0 29px 0;
+  color:#666;
+}
