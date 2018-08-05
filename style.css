@@ -248,5 +248,8 @@ footer{
     ul.first-list li div.text{
         height: 160px;
     }
+    footer p{
+        font-size:9px;
+    }
 }
     
